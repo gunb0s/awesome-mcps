@@ -1,0 +1,26 @@
+# Credentials (NEVER commit these)
+client_secrets.json
+token.json
+*.credentials
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.jbeval/
+
+# OS
+.DS_Store
+Thumbs.db
