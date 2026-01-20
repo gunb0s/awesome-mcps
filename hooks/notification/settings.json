@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "TAB=$(osascript -e 'tell application \"iTerm2\" to get name of current session of current tab of current window' 2>/dev/null || echo 'Terminal') && osascript -e \"display notification \\\"Response complete\\\" with title \\\"Claude Code: $TAB\\\" sound name \\\"Glass\\\"\""
+          }
+        ]
+      }
+    ]
+  }
+}
